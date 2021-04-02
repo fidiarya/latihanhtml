@@ -1,0 +1,66 @@
+/* install font  */
+
+@font-face{
+    font-family: AbrilFat;
+    src: url('../font/AbrilFatface-Regular.ttf');
+}
+
+body{
+    margin: 0px;
+}
+
+.container{
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.menu{
+    background : linear-gradient(to right, red, blue);
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+.menu .logo{
+    font-size: 32px;
+    float: left;
+    font-family: AbrilFat;
+}
+
+.menu .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.menu .navigation li{
+    float: right;
+    margin-right: 20px;
+    display: block;
+    font-size: 18px;
+}
+
+.menu .navigation li a{
+    color: blanchedalmond;
+    text-decoration: none;
+}
+
+.menu .navigation li a:hover{
+    color: chartreuse;
+    text-decoration: underline;
+    font-family: Poppins;
+}
+
+.icon-kelas{
+    width: 250px;
+    height: 250px;
+    background-color:blue;
+    border-radius: 50%;
+    background-image: url('../images/mie-instan.jpeg');
+    background-size: cover;
+}
+
+.parent{
+    margin-top: 70px;
+}
+
